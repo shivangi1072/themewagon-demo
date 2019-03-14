@@ -1,0 +1,212 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+}
+header{
+    background :linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/living-room-couch-interior-room-584399.jpeg);
+	height: 100vh;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height:0px;
+  clear: both;
+}
+.row
+{
+	max-width: 1180px;
+	margin: 0 auto;
+
+}
+
+
+.main-nav{
+	/*float: right;*/
+	/*margin-top: 60px;*/
+} 
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	/*color: grey;*/
+	margin-right: 50px;
+
+}
+
+.main-nav li a{
+	color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 100px;
+    /*float: left;*/
+}
+
+.main-nav li a:hover{
+	border-bottom: 2px solid white;
+}
+
+.main-content-header{
+	width: 50%;
+	position: absolute;
+	top: 80%;
+	bottom: 30%;
+	left: 10%;
+}
+
+.white-bg{
+	background-color: darkgrey;
+	background :linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	width: auto;
+	height: 100px;
+	border-radius: 50px;
+	/*background: cover;*/
+}
+ 
+ h1{
+ 	color: white;
+ 	font-size: 200%;
+    font-family: comic sans MS;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+	 }
+
+	  h6{
+    color: white;
+ 	font-size: 50%;
+    font-family: comic sans MS;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+	 }
+
+	 .btn{
+	 	display: inline-block;
+	 	/*padding: 10px 10px;*/
+	 	top: 80;
+	 	left: 70;
+	 	font-weight: lighter;
+	 	text-decoration: none;
+	 	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	 
+	 }
+	 .btn-full{
+	 	background-color: transparent;
+	 	border: 1px solid black;
+	 }
+
+	 
+
+	/* @media only screen and (min-width: 480px ;){
+      .main-content-header{
+      	width:100%;
+      	padding: 0 2%;
+      }
+   
+ 	@media only screen and (min-width: 480px; ){
+      h1{font-size: 200%;}
+      }
+
+
+
+      /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+  width: 100%;
+  }
+}
+
+/* Extra small devices "mobile phones" */
+@media only screen and (max-width: 768px) {
+	.clearfix .dropdown .dropbtn .social .my-button .heading{
+		width: 50%;
+		
+
+	}
+} 
+ 
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 992px) {
+	.clearfix{
+		width: 50%;
+		
+	}
+} 
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 1100px) {
+.clearfix{
+		width: 50%;
+		
+	}
+}
+ 
+@media only screen and (max-width: 1920px) {
+
+}
+
+/*Animations starts from here*/
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+
+  .btn-full:hover{
+	 	background-color: white!important;
+	 	height: 5vh
+	 }
