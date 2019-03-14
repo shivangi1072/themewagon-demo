@@ -208,5 +208,16 @@ header{
 
   .btn-full:hover{
 	 	background-color: white!important;
-	 	height: 5vh
+	 
 	 }
+
+
+
+
+
+/*Social icnons*/
+
+.social-main:hover{
+	text-decoration: none!important;
+	text-decoration-line: none!important;
+}
